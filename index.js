@@ -6,8 +6,8 @@
 
         let rNoun = noun[Math.floor(noun.length*Math.random())];
         let rVerb = verb[Math.floor(verb.length*Math.random())];
-        let rObject = verb[Math.floor(object.length*Math.random())];
-        let rAdverb = verb[Math.floor(adverb.length*Math.random())];
+        let rObject = object[Math.floor(object.length*Math.random())];
+        let rAdverb = adverb[Math.floor(adverb.length*Math.random())];
 
         let theEntireExcuse = rNoun + rVerb + rObject + rAdverb;
         document.getElementById("excuse").innerHTML = theEntireExcuse;
