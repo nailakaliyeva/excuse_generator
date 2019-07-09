@@ -1,3 +1,4 @@
+    function genarateAnExcuse(){
         let noun = ["My cat ", "My dog ", "My iguana "];
         let verb = ["ate ", "chewed up ", "destroyed "];
         let object = ["my homework ", "my project ", "my book "];
@@ -10,3 +11,4 @@
 
         let theEntireExcuse = rNoun + rVerb + rObject + rAdverb;
         document.getElementById("excuse").innerHTML = theEntireExcuse;
+;}
